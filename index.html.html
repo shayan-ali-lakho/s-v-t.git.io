@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ASSINGMENT#5</h1>
+    <script>
+        let a = prompt("What do you want to find S,V & T");
+        let s;
+        let v;
+        let t;
+        if(a=="s"){  
+            let v = prompt("v");
+            let t = prompt("t");
+         let  s=v*t;
+            document.write("Distance(s)=",s);
+        }
+        else if(a=="v"){
+            let s = prompt("v");
+            let t = prompt("t");
+         let  v=s/t;
+            document.write("Velocity(v)=",v);
+        }
+        else if(a=="t"){
+            let s = prompt("v");
+            let v = prompt("t");
+         let  t=s/v;
+            document.write("Time(t)=",t);
+        }
+        else{
+            document.write("YOU CHOOOSE WRONG VARAIBLE ");
+        }
+
+
+
+    </script>
+
+</body>
+</html>
